@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>style by JS</title>
+        <style>
+            body{
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                text-align: center;
+                background-color: rgb(110, 139, 139);
+            }
+
+            #btn{
+                background-color: brown;
+                color: white;
+                border-radius: 5px;
+                border:1px solid black;
+                height:30px;
+                width: 90px;
+            }
+            
+            #btn{
+                background-color: rgb(79, 190, 24);
+                border-radius: 5px;
+                color: white;
+                border:1px solid black;
+                height:30px;
+                width: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="one">
+            <h1 id="heading"> Glowing Effects!</h1>
+            <button id="btn1" onclick="JS()">Click Here!</button>
+        </div>
+        <div class="one">
+            <div id="name"></div>
+            <button id="btn2" onclick="changename()">Click to change name</button>
+        </div>
+    </body>
+    <script>
+        function JS(){
+            var h1= document.getElementById("heading");
+            h1.style.backgroundColor = "green";
+            h1.style.color = "yellow"
+
+        }
+        var h1= document.getElementById("name");
+        h1.style.height = "150px";
+        h1.style.width = "150px";
+        h1.style.backgroundColor= "brown";
+        h1.style.border = "2px solid black";
+        h1.style.borderRadius= "10px";
+
+        function changename(){
+            var btn= document.getElementById("name");
+            btn.innerHTML = "Yukti";
+        }
+        
+
+    </script>
+</html>

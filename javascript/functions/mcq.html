@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Quiz Time</title>
+        <style>
+            body{
+                background-color: azure;
+                align-content: center;
+                text-align: center;
+            }
+            body h1{
+                color:crimson
+            }
+            body button{
+                background-color: blanchedalmond;
+                border-radius: 3px;
+                border:1px solid rgba(78, 15, 195, 0.822)
+            }
+        </style>
+    </head>
+    <body>
+        <h1>RAM stands for ?</h1>
+        <button id="correct1" onclick="correct()">Random Access Memory</button>
+        <button id="incorrect1" onclick="incorrect()">Read Only Memory</button>
+        <p id="answer"></p>
+    </body>
+    <script>
+        function correct(){
+            document.getElementById("answer").innerHTML="Your answer is correct";
+            var s1= document.getElementById("answer");
+            s1.style.color = "green";
+        }
+        function incorrect(){
+            document.getElementById("answer").innerHTML="Your answer is incorrect";
+            document.getElementById("answer").style.color= red;
+        }
+    </script>
+</html>

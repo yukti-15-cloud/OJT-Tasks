@@ -1,0 +1,28 @@
+    <html>
+        <head>
+            <title>Equality Check</title>
+        </head>
+        <body>
+            <form>
+                Mobile<br><br>
+                <input type="number" name="mobile" id="mo" />
+                <br><br>
+
+                Re enter Mobile <br><br>
+                <input type="number" name="mobile" id="rmo" />
+                <br><br>
+
+                <input type="submit" value="Login" onclick="return wap()" />
+                <p id="result"></p>
+            </form>
+        </body>
+        <script>
+            function wap(){
+            var x= document.getElementById("mo").value;
+            var y= document.getElementById("rmo").value;
+            var z= x == y && y == x ? "Match Succes": "Match Fail";
+            document.getElementById("result").innerHTML=z;
+            return false;
+            }
+        </script>
+    </html>

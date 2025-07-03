@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title> Form </title>
+    </head>
+    <body>
+        <h1 align="center"> Join your name now!</h1>
+        <br />
+        firstname<br>
+            <input type="text" name="firstname" id="first" /><br />
+        lastname<br>
+            <input type="text" name="lastname" id="last" /><br />
+        <button onclick="wap()">Joint name now</button>
+    </body>
+    <script>
+        function wap(){
+            var x= document.getElementById("first").value;
+            var y= document.getElementById("last").value;
+            document.write("your name is "+x+y);
+        }
+    </script>
+</html>
