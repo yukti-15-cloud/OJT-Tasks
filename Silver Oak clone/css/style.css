@@ -1,0 +1,216 @@
+ table {
+
+     border-collapse: collapse;
+     font-family: Arial, sans-serif;
+ }
+
+ th,
+ td {
+     border: 1px solid #ddd;
+     padding: 8px;
+     text-align: left;
+ }
+
+ th {
+     background-color: #28743a;
+     /* Green header */
+     color: white;
+     font-weight: bold;
+ }
+
+ tr:nth-child(even) {
+     background-color: #f2f2f2;
+ }
+
+ .total-row {
+     font-weight: bold;
+ }
+
+ /* image css */
+ .img1 {
+     height: 616px;
+     animation: example 15s infinite;
+     background: url("https://silveroakuni.ac.in/upload/images/slider/active/1.webp") no-repeat;
+ }
+
+ /* images slideshow */
+ @keyframes example {
+     0% {
+         background: url("https://silveroakuni.ac.in/upload/images/slider/active/4.webp") no-repeat;
+         background-size: 100%;
+     }
+
+     20% {
+         background: url("https://silveroakuni.ac.in/upload/images/slider/active/6.webp") no-repeat;
+         background-size: 100%;
+     }
+
+     40% {
+         background: url("https://silveroakuni.ac.in/upload/images/slider/active/2.webp") no-repeat;
+         background-size: 100%;
+     }
+
+     60% {
+         background: url("https://silveroakuni.ac.in/upload/images/slider/active/3.webp") no-repeat;
+         background-size: 100%;
+     }
+
+     80% {
+         background: url("https://silveroakuni.ac.in/upload/images/slider/active/5.webp") no-repeat;
+         background-size: 100%;
+     }
+
+     100% {
+         background: url("https://silveroakuni.ac.in/upload/images/slider/active/1.webp") no-repeat;
+         background-size: 100%;
+     }
+ }
+
+
+ .rate {
+     font-family: 'Times New Roman', Times, serif;
+     text-align: center;
+     align-content: center;
+     justify-content: center;
+     gap: 250px;
+ }
+
+ footer {
+     display: flex;
+     justify-content: space-around;
+     text-align: start;
+     align-items: flex-start;
+ }
+
+ .logo_box {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .scroll {
+     padding: 50px;
+     justify-content: center;
+ }
+
+ .scroll1 {
+     overflow-y: scroll;
+     padding: 10px;
+ }
+
+ .scroll2 {
+     overflow-y: scroll;
+     padding: 10px;
+ }
+
+ /* Custom scrollbar styling */
+ .scroll1::-webkit-scrollbar,
+ .scroll2::-webkit-scrollbar {
+     width: 10px;
+ }
+
+ .scroll1::-webkit-scrollbar-track,
+ .scroll2::-webkit-scrollbar-track {
+     background: #480b0b;
+ }
+
+ .scroll1::-webkit-scrollbar-thumb,
+ .scroll2::-webkit-scrollbar-thumb {
+     background: rgb(150, 52, 52);
+     /* red scrollbar thumb */
+     border-radius: 10px;
+ }
+
+ .scroll1::-webkit-scrollbar-thumb:hover,
+ .scroll2::-webkit-scrollbar-thumb:hover {
+     background: #16a34a;
+     /* Darker red on hover */
+ }
+
+ /* gallery section CSS */
+
+ .bt2 {
+     padding: 4px;
+     background-color: antiquewhite;
+     cursor: pointer;
+ }
+
+ .para {
+     border-top: #248547 3px solid;
+     background-color: white;
+     padding: 6px;
+     height: 45px;
+     justify-content: center;
+ }
+
+ .ranking {
+     justify-content: center;
+     text-align: center;
+     padding: 5px;
+ }
+
+ /* top recruiters animation CSS */
+
+ @keyframes scroll {
+     0% {
+         transform: translateX(0);
+     }
+
+     100% {
+         transform: translateX(-50%);
+     }
+ }
+
+ @keyframes stopscroll {
+     0% {
+         transform: translateX(0);
+     }
+
+     100% {
+         transform: translateX(0);
+     }
+ }
+
+ .recruiter-scroll {
+     display: flex;
+     width: 100%;
+     overflow: hidden;
+ }
+
+ .recruiter-container {
+     display: flex;
+     animation: scroll 10s linear infinite;
+     white-space: nowrap;
+ }
+
+ .recruiter-container img {
+     margin: 0 15px;
+     filter: blur(10px);
+ }
+
+ .recruiter-container img:hover {
+     scale: 1.2;
+     cursor: pointer;
+     filter: blur(0px);
+
+     .recruiter-container {
+         animation: stopscroll 10s linear infinite;
+     }
+
+ }
+
+ .fa-youtube {
+     color: white;
+ }
+
+ .fa-youtube:hover {
+     color: red;
+     cursor: pointer;
+ }
+
+ 
+ header{
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: white;
+ }

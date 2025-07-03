@@ -1,0 +1,44 @@
+ .section-1 img{
+     width: 3200px;
+ }
+
+ header{
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: white;
+ }
+
+ ul li{
+    list-style-type: disc;
+ }
+
+ header ul li{
+    list-style-type: none;
+    display: inline-block;
+ }
+
+table {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+th,
+td {
+    border: 2px solid #ddd;
+    padding: 15px 8px;
+    text-align: center;
+}
+
+td:nth-child(1),
+td:nth-child(3) {
+    width: 20%;
+    white-space: nowrap;
+}
+
+th {
+    background-color: #812b2b;
+    font-weight: bold;
+}

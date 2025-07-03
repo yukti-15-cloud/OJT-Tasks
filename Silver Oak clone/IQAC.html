@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQAC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/IQAC.css">
+</head>
+
+<body>
+    <!-- navigation box -->
+    <nav class="bg-red-900 p-3">
+        <div class="px-2 flex justify-between items-center">
+            <div class="text-white font-bold text-xs space-x-3">Admission Helpline: +91-79-35201300 / +91-79-66046300
+                <i class="fa-brands fa-whatsapp"></i> +91-90990 63464
+            </div>
+
+            <div class="space-x-4">
+                <a href="index.html"
+                    class="text-gray-100 font-bold hover:text-gray-300 opacity-50 hover:opacity-100 "><em>HOME</em></a>
+                <a href="exam.html"
+                    class="text-gray-100 font-bold hover:text-gray-300 opacity-50 hover:opacity-100 "><em>EXAM</em></a>
+                <a href="IQAC.html"
+                    class="text-gray-100 font-bold hover:text-gray-300 opacity-50 hover:opacity-100"><em>IQAC</em></a>
+                <a href="careers.html"
+                    class="text-gray-100 font-bold hover:text-gray-300 opacity-50 hover:opacity-100"><em>CAREERS</em></a>
+                <i class="fa-brands fa-facebook text-white opacity-90"></i>
+                <i class="fa-brands fa-instagram text-white opacity-90"></i>
+                <i class="fa-brands fa-linkedin text-white opacity-90"></i>
+                <i class="fa-brands fa-youtube text-white opacity-90"></i>
+                <i class="fa-brands fa-x-twitter text-white opacity-90"></i>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- header section -->
+    <header>
+        <div class="flex space-x-15 ">
+            <!-- silver oak logo -->
+            <div> <img src="https://silveroakuni.ac.in/upload/images/250x70.webp" alt="">
+            </div>
+            <div>
+                <!-- header logo -->
+                <ul class="flex justify-between space-x-6 relative top-5 left-20 text-red-900">
+                    <li class="hover:border-b-2 hover:border-red-800 cursor-pointer">About</li>
+                    <li class="hover:border-b-2 hover:border-red-800 cursor-pointer">Admissions</li>
+                    <li class="hover:border-b-2 hover:border-red-800 cursor-pointer">Acedemics</li>
+                    <li class="hover:border-b-2 hover:border-red-800 cursor-pointer">Events</li>
+                    <li class="hover:border-b-2 hover:border-red-800 cursor-pointer">Gallery</li>
+                    <li class="hover:border-b-2 hover:border-red-800 cursor-pointer">Placements</li>
+                    <li class="hover:border-b-2 hover:border-red-800 cursor-pointer">Student Corner</li>
+                    <li class="hover:border-b-2 hover:border-red-800 cursor-pointer">Approval</li>
+                    <li class="hover:border-b-2 hover:border-red-800 cursor-pointer">Contact</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- just a section -->
+    <div class="box bg-red-900 p-4 text-gray-100 font-serif text-2xl font-bold">
+        <h1 class="mx-15"> Internal Quality Assurance Cell (IQAC)</h1>
+    </div>
+    <!-- Toggle Section -->
+    <div class="toggle m-10">
+        <!-- header 1 -->
+        <div class="box h-11 w-280 mx-14  bg-[#7a003c] text-white px-6 py-4 flex justify-between items-center cursor-pointer"
+            onclick="toggleDropdown(1)">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-sliders-h"></i>
+                <span class="font-semibold uppercase">ABOUT</span>
+            </div>
+            <i id="arrow-icon-1" class="fas fa-chevron-down transition-transform duration-300"></i>
+        </div>
+
+        <!-- Dropdown Content 1 -->
+        <div id="dropdownContent-1" class=" hidden w-280 mx-14 my-o">
+            <div class="font-serif font-bold text-sm items-center shadow-md bg-gray-100">
+                <p class="py-6 px-6">
+                    The Internal Quality Assurance Cell (IQAC) of Silver Oak University is dedicated to enhancing
+                    quality across all institutional areas. It develops and <br>
+                    implements quality benchmarks for academic and administrative activities, ensures systematic
+                    documentation, and promotes effective internal <br>
+                    communication.The IQAC conducts regular audits, gathers feedback from students, faculty, and
+                    stakeholders, and organizes workshops and <br>
+                    seminars on quality enhancement. By encouraging innovative teaching and research practices, it
+                    aims to improve the learning environment and <br>
+                    academic performance. Through these efforts, the IQAC supports the university's mission of
+                    delivering exceptional education and fostering a dynamic academic communit. <br>
+
+                </p> <br>
+                <h1 class="text-2xl text-red-800 px-6">Objectives</h1>
+                <p class="px-6">- To develop a system for conscious, consistent and catalytic action to improve the
+                    academic and
+                    administrative performance of the institution. <br>
+                    - To promote measures for institutional functioning towards quality enhancement through
+                    internalization of quality culture and institutionalization of best practices. <br>
+                </p> <br>
+                <h1 class="px-6 text-2xl text-red-800">Functions</h1>
+                <p class="px-6">
+                    - Development and application of quality benchmarks/parameters for various academic and
+                    administrative activities of the institution. <br>
+                    - Facilitating the creation of a learner-centric environment conducive to quality education and
+                    faculty maturation to adopt the required knowledge and technology for participatory teaching and
+                    learning process. <br>
+                    - Arrangement for feedback response from students, parents and other stakeholders on quality-related
+                    institutional processes. <br>
+                    - Dissemination of information on various quality parameters of higher education. <br>
+                    - Organization of inter and intra institutional workshops, seminars on quality related themes
+                    promotion of quality circles, <br>
+                    - Documentation of the various programmes/activities leading to quality improvement. <br>
+                    - Acting as a nodal agency of the Institution for coordinating quality-related activities, including
+                    adoption and dissemination of best practices. <br>
+                    - Development and maintenance of institutional database through MIS for the purpose of maintaining
+                    /enhancing the institutional quality. <br>
+                    - Development of Quality Culture in the institution. <br>
+                    - Preparation of the Annual Quality Assurance Report (AQAR) of the university based on the quality
+                    parameters/assessment criteria developed by the <br>
+                    relevant quality assurance body in the prescribed format after Graded Accreditation. <br>
+                    - Interaction with SQACs in the pre and post accreditation quality assessment, sustenance and
+                    enhancement endeavors. <br>
+                </p><br>
+                <h1 class="px-6 text-2xl text-red-800">Benefits of IQAC </h1>
+                <p class="px-6">
+                    - Ensure heightened level of clarity and focus in institutional functioning towards quality enhancement. <br>
+                    - Ensure internalization of the quality culture. <br>
+                    - Ensure enhancement and integration among the various activities of the institution and institutionalize good practices. <br>
+                    - Provide a sound basis for decision-making to improve institutional functioning. <br>
+                    - Act as a dynamic system for quality changes in the University. <br>
+                    - Build an organized methodology of documentation and internal communication...... 
+                </p> <br> <br>
+            </div>
+        </div> <br>
+
+        <!-- header 2 -->
+        <div class="box h-11 w-280 mx-14  bg-[#7a003c] text-white px-6 py-4 flex justify-between items-center cursor-pointer"
+            onclick="toggleDropdown(2)">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-sliders-h"></i>
+                <span class="font-semibold uppercase">IQAC COMMITTEE</span>
+            </div>
+            <i id="arrow-icon-2" class="fas fa-chevron-down transition-transform duration-300"></i>
+        </div>
+
+        <!-- Dropdown Content 2 -->
+        <div id="dropdownContent-2" class=" hidden w-280 mx-14 p-4 bg-gray-100">
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold">IQAC Committee</span>
+            </div>
+        </div> <br>
+
+        <!-- header 3 -->
+        <div class="box h-11 w-280 mx-14  bg-[#7a003c] text-white px-6 py-4 flex justify-between items-center cursor-pointer"
+            onclick="toggleDropdown(3)">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-sliders-h"></i>
+                <span class="font-semibold uppercase">REPORTS-MINUTES OF MEETING</span>
+            </div>
+            <i id="arrow-icon-3" class="fas fa-chevron-down transition-transform duration-300"></i>
+        </div>
+
+        <!-- Dropdown Content 3 -->
+        <div id="dropdownContent-3" class="hidden w-280 mx-14 p-4 bg-gray-100">
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold">IQAC MoM ( 2024- 2025 )</span>
+            </div> <br>
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold">IQAC MoM ( 2023- 2024 )</span>
+            </div> <br>
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold">IQAC MoM ( 2022- 2023 )</span>
+            </div> <br>
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> Acedemic Council-MOM</span>
+            </div>
+        </div> <br>
+
+        <!-- header 4 -->
+        <div class="box h-11 w-280 mx-14  bg-[#7a003c] text-white px-6 py-4 flex justify-between items-center cursor-pointer"
+            onclick="toggleDropdown(4)">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-sliders-h"></i>
+                <span class="font-semibold uppercase">ACCREDITATION AND RANKINGS</span>
+            </div>
+            <i id="arrow-icon-4" class="fas fa-chevron-down transition-transform duration-300"></i>
+        </div>
+
+        <!-- Dropdown Content 4-->
+        <div id="dropdownContent-4" class="hidden w-280 mx-14 p-4 bg-gray-100">
+             <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> NBA</span>
+            </div><br>
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> ISO</span>
+            </div><br> 
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> GSRIF</span>
+            </div> <br>
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> NABL</span>
+            </div>
+        </div><br>
+
+        <!-- header 5 -->
+        <div class="box h-11 w-280 mx-14  bg-[#7a003c] text-white px-6 py-4 flex justify-between items-center cursor-pointer"
+            onclick="toggleDropdown(5)">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-sliders-h"></i>
+                <span class="font-semibold uppercase">AUDIT</span>
+            </div>
+            <i id="arrow-icon-5" class="fas fa-chevron-down transition-transform duration-300"></i>
+        </div>
+
+        <!-- Dropdown Content 5 -->
+        <div id="dropdownContent-5" class="hidden w-280 mx-14 p-4 bg-gray-100">
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> Green Audit</span>
+            </div><br>
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> Energy Audit</span>
+            </div><br>
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> Environment Audit</span>
+            </div><br>
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> AAA</span>
+            </div>
+        </div><br>
+
+        <!-- header 6 -->
+        <div class="box h-11 w-280 mx-14  bg-[#7a003c] text-white px-6 py-4 flex justify-between items-center cursor-pointer"
+            onclick="toggleDropdown(6)">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-sliders-h"></i>
+                <span class="font-semibold uppercase">NAAC</span>
+            </div>
+            <i id="arrow-icon-6" class="fas fa-chevron-down transition-transform duration-300"></i>
+        </div>
+
+        <!-- Dropdown Content 6 -->
+        <div id="dropdownContent-6" class="hidden w-280 mx-14 p-4 bg-gray-100">
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> Undertaking</span>
+            </div><br>
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> IIQA</span>
+            </div><br>
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> SSR</span>
+            </div><br>
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> DVV Clarifications</span>
+            </div>
+        </div><br>
+
+        <!-- header 7 -->
+        <div class="box h-11 w-280 mx-14  bg-[#7a003c] text-white px-6 py-4 flex justify-between items-center cursor-pointer"
+            onclick="toggleDropdown(7)">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-sliders-h"></i>
+                <span class="font-semibold uppercase">STRATEGIC PLAN</span>
+            </div>
+            <i id="arrow-icon-7" class="fas fa-chevron-down transition-transform duration-300"></i>
+        </div>
+
+        <!-- Dropdown Content 7 -->
+        <div id="dropdownContent-7" class="hidden w-280 mx-14 p-4 bg-gray-100">
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> Strategic Plan</span>
+            </div>
+        </div><br>
+
+        <!-- header 8 -->
+        <div class="box h-11 w-280 mx-14  bg-[#7a003c] text-white px-6 py-4 flex justify-between items-center cursor-pointer"
+            onclick="toggleDropdown(8)">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-sliders-h"></i>
+                <span class="font-semibold uppercase">REPORT OF STRATEGIC PLAN DEPLOYMENT</span>
+            </div>
+            <i id="arrow-icon-8" class="fas fa-chevron-down transition-transform duration-300"></i>
+        </div>
+
+        <!-- Dropdown Content 8 -->
+        <div id="dropdownContent-8" class="hidden w-280 mx-14 p-4 bg-gray-100">
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> Report of Strategic Plan Deployment</span>
+            </div>
+        </div><br>
+
+        <!-- header 9 -->
+        <div class="box h-11 w-280 mx-14  bg-[#7a003c] text-white px-6 py-4 flex justify-between items-center cursor-pointer"
+            onclick="toggleDropdown(9)">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-sliders-h"></i>
+                <span class="font-semibold uppercase">NIRF</span>
+            </div>
+            <i id="arrow-icon-9" class="fas fa-chevron-down transition-transform duration-300"></i>
+        </div>
+
+        <!-- Dropdown Content 9 -->
+        <div id="dropdownContent-9" class="hidden w-280 mx-14 p-4 bg-gray-100">
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> Management</span>
+            </div><br>
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> Engineering</span>
+            </div><br>
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> Innovation</span>
+            </div><br>
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> SDG</span>
+            </div><br>
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> NIRF colleges</span>
+            </div><br>
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> OVERALL</span>
+            </div><br>
+        </div><br>
+
+        <!-- header 10 -->
+        <div class="box h-11 w-280 mx-14  bg-[#7a003c] text-white px-6 py-4 flex justify-between items-center cursor-pointer"
+            onclick="toggleDropdown(10)">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-sliders-h"></i>
+                <span class="font-semibold uppercase">AWARDS AND RECOGNITION</span>
+            </div>
+            <i id="arrow-icon-10" class="fas fa-chevron-down transition-transform duration-300"></i>
+        </div>
+
+        <!-- Dropdown Content 10 -->
+        <div id="dropdownContent-10" class="hidden w-280 mx-14 p-4 bg-gray-100">
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> Awards and Recognition</span>
+            </div>
+        </div><br>
+
+        <!-- header 11 -->
+        <div class="box h-11 w-280 mx-14  bg-[#7a003c] text-white px-6 py-4 flex justify-between items-center cursor-pointer"
+            onclick="toggleDropdown(11)">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-sliders-h"></i>
+                <span class="font-semibold uppercase">BEST PRACTICES</span>
+            </div>
+            <i id="arrow-icon-11" class="fas fa-chevron-down transition-transform duration-300"></i>
+        </div>
+
+        <!-- Dropdown Content 11 -->
+        <div id="dropdownContent-11" class="hidden w-280 mx-14 p-4 bg-gray-100">
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> Best Practice</span>
+            </div>
+        </div><br>
+        <!-- header 12 -->
+        <div class="box h-11 w-280 mx-14  bg-[#7a003c] text-white px-6 py-4 flex justify-between items-center cursor-pointer"
+            onclick="toggleDropdown(12)">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-sliders-h"></i>
+                <span class="font-semibold uppercase">INSTITUTIONAL DISTINCTIVENESS</span>
+            </div>
+            <i id="arrow-icon-12" class="fas fa-chevron-down transition-transform duration-300"></i>
+        </div>
+
+        <!-- Dropdown Content 12 -->
+        <div id="dropdownContent-12" class="hidden w-280 mx-14 p-4 bg-gray-100">
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> Institutional Distincttiveness</span>
+            </div>
+        </div><br>
+
+        <!-- header 13 -->
+        <div class="box h-11 w-280 mx-14  bg-[#7a003c] text-white px-6 py-4 flex justify-between items-center cursor-pointer"
+            onclick="toggleDropdown(13)">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-sliders-h"></i>
+                <span class="font-semibold uppercase">CODE OF CONDUCT</span>
+            </div>
+            <i id="arrow-icon-13" class="fas fa-chevron-down transition-transform duration-300"></i>
+        </div>
+
+        <!-- Dropdown Content 13 -->
+        <div id="dropdownContent-13" class="hidden w-280 mx-14 p-4 bg-gray-100">
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> Code of Conduct</span>
+            </div>
+        </div><br>
+
+        <!-- header 14 -->
+        <div class="box h-11 w-280 mx-14  bg-[#7a003c] text-white px-6 py-4 flex justify-between items-center cursor-pointer"
+            onclick="toggleDropdown(14)">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-sliders-h"></i>
+                <span class="font-semibold uppercase">STAKEHOLDERS FEEDBACK</span>
+            </div>
+            <i id="arrow-icon-14" class="fas fa-chevron-down transition-transform duration-300"></i>
+        </div>
+
+        <!-- Dropdown Content 14 -->
+        <div id="dropdownContent-14" class="hidden w-280 mx-14 p-4 bg-gray-100">
+            <div class="bg-pink-950 text-white px-4 py-3 w-100 items-center space-x-2 shadow-md">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="text-lg font-semibold"> Stakeholders Feedback</span>
+            </div>
+        </div><br>
+
+        <!-- header 15 -->
+        <div class="box h-11 w-280 mx-14  bg-[#7a003c] text-white px-6 py-4 flex justify-between items-center cursor-pointer"
+            onclick="toggleDropdown(15)">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-sliders-h"></i>
+                <span class="font-semibold uppercase">CONTACT US</span>
+            </div>
+            <i id="arrow-icon-15" class="fas fa-chevron-down transition-transform duration-300"></i>
+        </div>
+
+        <!-- Dropdown Content 15 -->
+        <div id="dropdownContent-15" class="hidden w-280 mx-14 p-4 bg-gray-100">
+            <div class=" px-4 py-3 inline-flex items-center space-x-2 shadow-md">
+                <p>
+                    Prof. Piyush Patel <br>
+                    Member Secretary <br>
+                    Email:iqac@silveroakuni.ac.in
+                </p>
+            </div>
+        </div><br>
+    </div>
+
+    <!-- footer section -->
+
+    <footer class="bg-gray-200 p-4 flex justify-around">
+        <div class="m-2 p-2">
+            <h2 class="text-red-900 underline text-xl font-medium mb-2">SILVER OAK UNIVERSITY</h2>
+            <ul class="text-gray-600 text-xs space-y-1">
+                <li>About SOU</li>
+                <li>Mission & vision</li>
+                <li>MOUs</li>
+                <li>Testimonals</li>
+                <li>Career</li>
+            </ul>
+        </div>
+        <div class="m-2 p-2">
+            <h2 class="text-red-900 underline text-xl font-medium mb-2">LEADERSHIP</h2>
+            <ul class="text-gray-600 text-xs space-y-1">
+                <li>Management</li>
+                <li>Provost</li>
+                <li>Register</li>
+                <li>Governing Body</li>
+            </ul>
+        </div>
+        <div class="m-2 p-2">
+            <h2 class="text-red-900 underline text-xl font-medium mb-2">PLACEMENT</h2>
+            <ul class="text-gray-600 text-xs space-y-1">
+                <li>Overview of Placement</li>
+                <li>Testimonals</li>
+            </ul>
+
+            <h2 class="text-red-900 underline text-xl font-medium mt-4 mb-2">ACHIEVEMENTS</h2>
+            <ul class="text-gray-600 text-xs space-y-1">
+                <li>Grants</li>
+                <li>Rankings</li>
+                <li>Student Achievements</li>
+                <li>Faculty Recognition</li>
+                <li>Awards</li>
+            </ul>
+        </div>
+        <div class="m-2 p-2">
+            <h2 class="text-red-900 underline text-xl font-medium mb-2">STUDENT FACILITIES</h2>
+            <ul class="text-gray-600 text-xs space-y-1">
+                <li>Accomodation</li>
+                <li>Laboratories</li>
+                <li>E-Library</li>
+                <li>Incubation center</li>
+                <li>Student Clubs</li>
+                <li>IEEE Student Branch</li>
+                <li>Health Care Services</li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- copyright section -->
+
+    <div class="flex box bg-gray-100 gap-x-80 font-serif">
+        <div>
+            <p class="mx-40 text-sm p-4">All Rights Reserved. &copy <span class="text-red-900">SILVEROAK CAMPUS AND
+                    RESEARCH FOUNDATION</span></p>
+        </div>
+        <div class="flex p-3 gap-x-3">
+            <i class="fa-brands fa-square-facebook text-blue-900 text-2xl"></i>
+            <i class="fa-brands fa-x-twitter text-2xl"></i>
+            <i class="fa-brands fa-instagram text-2xl text-pink-700"></i>
+            <i class="fa-brands fa-linkedin-in text-2xl text-blue-800"></i>
+            <i class="fa-brands fa-youtube text-2xl text-red-600"></i>
+        </div>
+    </div>
+
+</body>
+
+<!-- JavaScript -->
+
+</html>
+<script>
+function toggleDropdown(num) {
+    const dropdown = document.getElementById(`dropdownContent-${num}`);
+    const arrow = document.getElementById(`arrow-icon-${num}`);
+    
+    if (dropdown.classList.contains('hidden')) {
+        dropdown.classList.remove('hidden');
+        arrow.classList.add('rotate-180');
+    } else {
+        dropdown.classList.add('hidden');
+        arrow.classList.remove('rotate-180');
+    }
+}
+</script>
