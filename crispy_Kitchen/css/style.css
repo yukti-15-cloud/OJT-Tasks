@@ -1,0 +1,52 @@
+nav{
+    justify-content: space-between;
+    text-align: center;
+}
+
+nav h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-image:linear-gradient(to top, black, transparent), url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.container2{
+    background-image:linear-gradient(to top, black, transparent), url("../images/steak.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top:100px;
+    padding:0; 
+
+}
+
+.arrow-box{
+    justify-content: right;
+   
+}
+
+.news{
+    background-image: linear-gradient(to top, black, transparent), url("../images/1.png")
+}
+
+.news-1{
+    background-image: linear-gradient(to top, black, transparent), url("../images/2.png")
+}
+
+footer{
+    background-image: linear-gradient(to top, rgb(25, 24, 24) , transparent), url("../images/street.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+footer .content{
+    justify-content: space-between;
+}
