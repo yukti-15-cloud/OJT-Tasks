@@ -1,0 +1,105 @@
+ body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    text-align: center;
+    align-content: center;
+    background-image: url('../images/form_background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-position: center;
+}
+
+#name{
+    background-color: beige;
+    border-radius: none;
+    border: none;
+    margin: 3px;
+    padding: 3px;
+}
+
+#age{
+    background-color: beige;
+    border-radius: none;
+    border: none;
+    margin: 3px;
+    padding: 3px;
+}
+
+#gender{
+    background-color: beige;
+    border-radius: none;
+    border: none;
+    margin: 3px;
+    padding: 3px;
+}
+
+#email{
+    background-color: beige;
+    border-radius: none;
+    border: none;
+    margin: 3px;
+    padding: 3px;
+}
+
+#mobile{
+    background-color: beige;
+    border-radius: none;
+    border: none;
+    margin: 3px;
+    padding: 3px;
+}
+
+#address{
+    background-color: beige;
+    border-radius: none;
+    border: none;
+    margin: 3px;
+    padding: 3px;
+}
+
+#password{
+    background-color:beige;
+    border-radius: none;
+    border: none;
+    margin: 3px;
+    padding: 3px;
+}
+
+button{
+    background-color:chocolate;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    color:white;
+}
+        
+image{
+    backdrop-filter: blur(4px);
+    size: cover;
+}
+
+section div ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+section div ul li a{
+    text-decoration: none;
+}
+
+section div button{
+    background-color: black;
+    color: azure;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+}
