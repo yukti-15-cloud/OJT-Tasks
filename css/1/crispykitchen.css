@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  nav a.active {
+    color: #e63946;
+  }
+  
+  .btn-reserve {
+    background-color: #e63946;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 60px;
+    background: url('background.jpg') no-repeat center center/cover;
+    min-height: 90vh;
+    position: relative;
+  }
+  
+  .hero-text h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  .rating {
+    font-size: 18px;
+    margin: 20px 0 10px;
+  }
+  
+  .stars {
+    color: gold;
+    margin-left: 10px;
+  }
+  
+  .hero-text p {
+    color: #ccc;
+    font-size: 16px;
+  }
+  
+  .hero-image-card {
+    background-color: #111;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 400px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  }
+  
+  .hero-image-card img {
+    width: 100%;
+    display: block;
+  }
+  
+  .card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .card-info h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .price {
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 2px 10px;
+    margin-left: 10px;
+  }
+  
+  .small-rating {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .card-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .yellow {
+    background-color: #f4a261;
+  }
+  
+  .red {
+    background-color: #e63946;
+  }
+  

@@ -1,0 +1,12 @@
+<html>
+<head>
+	<title> Css name </title>
+	<style>
+		h1{
+			color="red"
+		}
+</head>
+<body>
+	<h1> Yukti </h1>
+</body>
+</html>
